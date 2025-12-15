@@ -28,6 +28,31 @@ var index_config_base_default = {
   //后缀
   suffix: true,
   //弹幕
+  live: {
+    url: [
+      {
+        "name": "范明明",
+        "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u"
+      },
+      {
+        "name": "b站",
+        "url": "https://sub.ottiptv.cc/bililive.m3u"
+      },
+      {
+        "name": "虎牙",
+        "url": "https://sub.ottiptv.cc/huyayqk.m3u"
+      },
+      {
+        "name": "斗鱼",
+        "url": "https://sub.ottiptv.cc/douyuyqk.m3u"
+      },
+      {
+        "name": "轮播",
+        "url": "https://sub.ottiptv.cc/yylunbo.m3u"
+      }
+    ]
+  },
+  //弹幕
   danmu: {
     urls: [{ address: "https://danmuapi-ten-iota.vercel.app", name: "默认" }],
     autoPush: true
