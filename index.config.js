@@ -31,12 +31,13 @@ var index_config_base_default = {
   live: {
     url: [
       {
-        "name": "范明明",
-        "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u"
+        "name": "b站",
+        "url": "https://sub.ottiptv.cc/bililive.m3u",
+        "ua": "AptvPlayer-UA"
       },
       {
-        "name": "b站",
-        "url": "https://sub.ottiptv.cc/bililive.m3u"
+        "name": "iptv",
+        "url": "https://cdn.jsdelivr.net/gh/Kimentanm/aptv/m3u/iptv.m3u"
       },
       {
         "name": "虎牙",
