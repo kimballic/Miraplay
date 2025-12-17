@@ -162,6 +162,15 @@ var index_config_base_default = {
     url: ""
   },
   //tg
+  panso: {
+    url: "",
+    channel: "",
+    filter: {
+      include: ["4k", "合集"],
+      exclude: ["预告", "枪版", "花絮"]
+    },
+    token: ""
+  },
   tgsou: {
     url: "",
     count: 0,
@@ -300,6 +309,11 @@ var index_config_base_default = {
         "enable": true
       },
       {
+        "key": "nodejs_star",
+        "name": "剧梦",
+        "enable": true
+      },
+      {
         "key": "nodejs_aowu",
         "name": "嗷呜",
         "enable": true
@@ -340,6 +354,11 @@ var index_config_base_default = {
         "enable": true
       },
       {
+        "key": "nodejs_tgchannel",
+        "name": "频道",
+        "enable": true
+      },
+      {
         "key": "nodejs_qupan",
         "name": "趣盘",
         "enable": true
@@ -350,13 +369,13 @@ var index_config_base_default = {
         "enable": true
       },
       {
-        "key": "nodejs_tgsou",
-        "name": "tg搜",
+        "key": "nodejs_panso",
+        "name": "盘搜",
         "enable": true
       },
       {
-        "key": "nodejs_tgchannel",
-        "name": "频道",
+        "key": "nodejs_tgsou",
+        "name": "tg搜",
         "enable": true
       },
       {
