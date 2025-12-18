@@ -164,12 +164,14 @@ var index_config_base_default = {
   //tg
   panso: {
     url: "",
-    channel: "",
+    channels: "",
     filter: {
-      include: ["4k", "合集"],
+      include: [""],
       exclude: ["预告", "枪版", "花絮"]
     },
-    token: ""
+    plugins: "",
+    username: "",
+    password: ""
   },
   tgsou: {
     url: "",
