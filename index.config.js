@@ -163,15 +163,17 @@ var index_config_base_default = {
   },
   //tg
   panso: {
-    url: "",
+    url: "https://so.252035.xyz,https://备用节点.com",
     channels: "",
     filter: {
-      include: [""],
+      include: [],
       exclude: ["预告", "枪版", "花絮"]
     },
     plugins: "",
     username: "",
-    password: ""
+    password: "",
+    checkUrl: "https://pancheck.banye.tech:7777",
+    enableCheck: true
   },
   tgsou: {
     url: "",
@@ -378,6 +380,46 @@ var index_config_base_default = {
       {
         "key": "nodejs_tgsou",
         "name": "tg搜",
+        "enable": true
+      },
+      {
+        "key": "nodejs_panso_uc",
+        "name": "UC",
+        "enable": true
+      },
+      {
+        "key": "nodejs_panso_aliyun",
+        "name": "阿里",
+        "enable": true
+      },
+      {
+        "key": "nodejs_panso_baidu",
+        "name": "百度",
+        "enable": true
+      },
+      {
+        "key": "nodejs_panso_quark",
+        "name": "夸克",
+        "enable": true
+      },
+      {
+        "key": "nodejs_panso_tianyi",
+        "name": "天翼",
+        "enable": true
+      },
+      {
+        "key": "nodejs_panso_mobile",
+        "name": "移动",
+        "enable": true
+      },
+      {
+        "key": "nodejs_panso_123",
+        "name": "123",
+        "enable": true
+      },
+      {
+        "key": "nodejs_panso_115",
+        "name": "115",
         "enable": true
       },
       {
